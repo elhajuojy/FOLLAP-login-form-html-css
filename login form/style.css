@@ -1,0 +1,99 @@
+
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.section1{
+    width: 700px;
+    
+}
+
+.logo_section{
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+    text-align: center;
+    
+}
+.logo_section h1{
+    color: #455AB0;
+    font-size: 30px;
+    
+    
+}
+.page_logo{
+    width: 72px;
+    height: 57px;
+    padding: 10px;
+    
+}
+
+.section2{
+    background-color: #FFC300;
+    width: 1000px;
+    height: 1100px;
+    
+}
+
+.image_misstara{
+    width: 493px;
+    height: 370px;
+   
+}
+
+.section2{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    text-align: center;
+}
+
+input{
+    width: 411px;
+    height: 70px;
+    margin: 15px;
+    color: #48434A;
+    font-size: 26px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 6px;
+    padding-left: 20px;
+    
+    
+   
+}
+
+input:focus{
+    border-color: blueviolet;
+    outline: blueviolet;
+}
+button{
+    width: 438px;
+    height: 70px;
+    margin: 15px;
+    color: #48434A;
+    font-size: 40px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #8E11D5;
+    color: #FFFFFF;
+    border-style: solid;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+button:active{
+    transform: scale(0.98);
+}
+
+h1{
+    font-size: 80px;
+    color: #8E11D5;
+    margin-bottom: 50px;
+}
